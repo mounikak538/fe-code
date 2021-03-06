@@ -1,0 +1,30 @@
+@import "src/assets/scss/variables";
+.project-content {
+  margin: 1.2rem;
+  .createButton {
+    width: 100%;
+    text-align: right;
+  }
+  .title {
+    font-weight: bold;
+    margin: 1rem 0rem;
+  }
+  .employee-table {
+    background-color: $white;
+  }
+}
+.modal.employeeModal {
+  .modal-header {
+    font-weight: 600;
+    border-bottom: none;
+  }
+  .modal-content {
+    border-radius: 0px;
+  }
+  .modal-dialog {
+    max-width: 1300px;
+  }
+  .modal-body {
+    padding-top: 0rem;
+  }
+}

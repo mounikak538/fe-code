@@ -1,0 +1,9 @@
+@import "src/assets/scss/variables";
+.app-footer {
+  width: 100%;
+  background-color: $gray-dark;
+  text-align: center;
+  color: $white;
+  position: fixed;
+  bottom: 0px;
+}

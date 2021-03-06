@@ -1,0 +1,40 @@
+@import "assets/scss/variables";
+
+body.react-app {
+  font-family: "Siemens Sans Roman", "Siemens Sans Regular", sans-serif;
+  background-color: $gray-light-200;
+  color: $gray-dark;
+  overflow: hidden;
+  .teal-button {
+    background: $teal;
+    color: $white;
+    border-radius: 0;
+    &:hover {
+      color: $white;
+      background: $teal-dark;
+    }
+  }
+  .input-group {
+    .input-group-btn .search-button {
+      @extend .teal-button;
+      cursor: default;
+    }
+  }
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.loadingPopup {
+  background-color: #2196f3;
+  z-index: 3000;
+  position: relative;
+  text-align: center;
+  font-size: 0.8rem;
+  color: $white;
+  line-height: initial;
+  &::after {
+    content: "Loading";
+  }
+}

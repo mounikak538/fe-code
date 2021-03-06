@@ -1,0 +1,1 @@
+export { updateDetails } from "./Project";
